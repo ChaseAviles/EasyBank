@@ -17,12 +17,22 @@ body {
   font-weight: 300;
   font-size: $fontSmall;
   color: $grayishBlue;
+
+  &.noScroll {
+    overflow: hidden;
+  }
 }
 
 a,
 a:visited,
 a:hover {
   text-decoration: none;
+}
+
+//spacing
+.container {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 //flexbox styles
